@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathOperators</name>
+    </assembly>
+    <members>
+        <member name="F:MathOperators.MainPage._expList">
+            <summary>
+            Remembers the expressions that were calculated by the user
+            </summary>
+        </member>
+    </members>
+</doc>

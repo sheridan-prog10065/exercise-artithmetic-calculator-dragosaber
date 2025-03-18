@@ -43,10 +43,18 @@
         </Grid>
         <Button Text="Calculate" 
                 WidthRequest="200"
-                Margin="20, 0" FontSize="17" VerticalOptions="Center"/>
+                Margin="20, 0" FontSize="17" VerticalOptions="Center"
+                Clicked="OnCalculate"/>
         <VerticalStackLayout HorizontalOptions="Center">
             <Label Text="Arithmetic Expression" FontSize="17"/>
             <Entry x:Name="_txtMathExp" FontSize="17" IsReadOnly="True"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Margin="20, 20">
+            <Label Text="Expression History"/>
+            <Border>
+                <ListView x:Name="_lstExpHistory"
+                          HeightRequest="350"/>
+            </Border>
         </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
